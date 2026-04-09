@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Autonomous Hiring — AI Recruiting Team",
+    "description": "A self-driving AI recruiting team — from sourcing to outreach, analysis, and interview coordination."
+  },
+  "lang": {
+    "switchLabel": "Language",
+    "en": "EN",
+    "zh": "中文"
+  },
+  "nav": {
+    "brand": "Autonomous Hiring",
+    "problem": "Problem",
+    "system": "System",
+    "how": "How it works",
+    "cta": "Early access"
+  },
+  "hero": {
+    "eyebrow": "01 · Vision",
+    "headline": "Hiring is becoming autonomous",
+    "lead": "Not tools. Not workflows.\nA self-driving AI recruiting team — from sourcing to outreach, analysis, and interview coordination.",
+    "aside": "Signal-driven decisions, continuous motion, and human judgment where it matters — not in the gaps between tools.",
+    "ctaPrimary": "Get early access",
+    "ctaGhost": "Explore the system"
+  },
+  "problem": {
+    "eyebrow": "02 · Reframing",
+    "title": "Hiring was never the problem",
+    "subtitle": "The way it’s done was",
+    "items": [
+      {
+        "title": "It’s reactive",
+        "body": "Action happens only when needed. You’re not always knowing who matters until the moment has passed."
+      },
+      {
+        "title": "It’s fragmented",
+        "body": "Sourcing, outreach, screening, coordination — disconnected and uncoordinated across people and software."
+      },
+      {
+        "title": "It’s human-limited",
+        "body": "Even top recruiters can’t operate 24/7. Capacity becomes the ceiling on quality and speed."
+      }
+    ]
+  },
+  "paradigm": {
+    "line1": "Hiring is not a process",
+    "line2": "It’s a system of decisions, signals, and timing.",
+    "punchline": "So we built one."
+  },
+  "solution": {
+    "eyebrow": "04 · AI recruiting team",
+    "title": "A self-operating AI recruiting team",
+    "roles": [
+      {
+        "name": "Scout",
+        "title": "Talent Discovery",
+        "desc": "Always-on radar. Finds talent before you search."
+      },
+      {
+        "name": "Reach",
+        "title": "Outreach Specialist",
+        "desc": "Starts conversations. Follows up and persuades."
+      },
+      {
+        "name": "Analyst",
+        "title": "Talent Intelligence",
+        "desc": "Deep research, structured evaluation — automatically ranks candidates."
+      },
+      {
+        "name": "Coordinator",
+        "title": "Interview Ops",
+        "desc": "Schedules interviews. Keeps everyone aligned."
+      },
+      {
+        "name": "Strategist",
+        "title": "Market Intelligence",
+        "desc": "Tracks the talent market. Alerts you before others."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "05 · How it works",
+    "title": "Always running. Always learning. Always moving.",
+    "steps": ["Signal", "Discovery", "Outreach", "Analysis", "Interview"],
+    "note": "Full collaboration across agents, with feedback-driven optimization at every loop.",
+    "pills": ["24/7 continuity", "Shared context", "Closed-loop learning"]
+  },
+  "user": {
+    "eyebrow": "06 · Your role",
+    "title": "You don’t run the process — you guide the system",
+    "bullets": [
+      "Train agent judgment on what “great” looks like for your company.",
+      "Approve key decisions at the moments that shape outcomes.",
+      "Adjust strategy as markets, roles, and priorities shift."
+    ]
+  },
+  "depth": {
+    "eyebrow": "07 · System depth",
+    "title": "A multi-layer intelligent system",
+    "summary": "Expand architecture overview",
+    "layers": [
+      {
+        "bold": "Radar — Signal Layer:",
+        "text": " monitors talent and market trends continuously."
+      },
+      {
+        "bold": "Mapper — Graph Layer:",
+        "text": " builds complete candidate profiles from scattered evidence."
+      },
+      {
+        "bold": "Curator — Decision Layer:",
+        "text": " selects top candidates and suggests the next best actions."
+      }
+    ]
+  },
+  "diff": {
+    "eyebrow": "08 · Why this",
+    "title": "Built for operators, not demos",
+    "items": [
+      {
+        "title": "Runs 24/7",
+        "body": "The team doesn’t sleep — discovery and follow-through continue between your meetings."
+      },
+      {
+        "title": "Multi-channel outreach",
+        "body": "Coordinated touchpoints instead of a single brittle channel or template blast."
+      },
+      {
+        "title": "Market-aware decisions",
+        "body": "Strategy shifts with real labor-market signals, not static playbooks."
+      },
+      {
+        "title": "Learns from your feedback",
+        "body": "Every approval, pass, and edit tightens judgment — the system compounds with you."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "09 · Next step",
+    "title": "Build your AI recruiting team",
+    "primary": "Get early access",
+    "ghost": "Talk to us"
+  },
+  "footer": {
+    "line1": "© Autonomous Hiring",
+    "line2": "Signal · Judgment · Timing"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "main": "Main content",
+    "heroAside": "Positioning note"
+  }
+}
