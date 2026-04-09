@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { MiraLogomark } from "@/components/brand/MiraLogomark";
+import { PrimaryNav } from "@/components/layout/PrimaryNav";
 import { RevealOnScroll } from "@/components/RevealOnScroll";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import type { Dictionary } from "@/lib/get-dictionary";
@@ -23,6 +24,12 @@ const PILLAR_HOME_HASH: Record<string, string> = {
 export function AignosticsLanding({ dict, locale }: Props) {
   const pathPrefix = `/${locale}`;
   const v = dict.variantAignostics;
+  const agnNavLinks = [
+    { href: `${pathPrefix}/aignostics#capabilities`, label: v.productsEyebrow },
+    { href: `${pathPrefix}/aignostics#agn-paradigm`, label: v.pillars[0].more },
+    { href: `${pathPrefix}/aignostics#stories`, label: v.storiesEyebrow },
+    { href: `${pathPrefix}/aignostics#agn-cta`, label: dict.nav.cta },
+  ];
 
   return (
     <>
@@ -37,22 +44,12 @@ export function AignosticsLanding({ dict, locale }: Props) {
               <MiraLogomark className="mark-logomark" />
               {dict.nav.brand}
             </Link>
-            <nav aria-label="Primary">
-              <ul>
-                <li>
-                  <a href={`${pathPrefix}/aignostics#capabilities`}>{v.productsEyebrow}</a>
-                </li>
-                <li>
-                  <a href={`${pathPrefix}/aignostics#agn-paradigm`}>{v.pillars[0].more}</a>
-                </li>
-                <li>
-                  <a href={`${pathPrefix}/aignostics#stories`}>{v.storiesEyebrow}</a>
-                </li>
-                <li>
-                  <a href={`${pathPrefix}/aignostics#agn-cta`}>{dict.nav.cta}</a>
-                </li>
-              </ul>
-            </nav>
+            <PrimaryNav
+              links={agnNavLinks}
+              openMenuLabel={dict.a11y.openMenu}
+              closeMenuLabel={dict.a11y.closeMenu}
+              navLabel={dict.a11y.primaryNavigation}
+            />
             <div className="site-tools">
               <Link className="agn-back" href={pathPrefix}>
                 {v.backClassic}

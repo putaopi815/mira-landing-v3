@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { MiraLogomark } from "@/components/brand/MiraLogomark";
+import { PrimaryNav } from "@/components/layout/PrimaryNav";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import type { Dictionary } from "@/lib/get-dictionary";
 import type { Locale } from "@/i18n/config";
@@ -12,6 +13,13 @@ type Props = {
 
 export function SiteHeader({ dict, locale }: Props) {
   const pathPrefix = `/${locale}`;
+  const navLinks = [
+    { href: `${pathPrefix}#problem`, label: dict.nav.problem },
+    { href: `${pathPrefix}#solution`, label: dict.nav.system },
+    { href: `${pathPrefix}#how`, label: dict.nav.how },
+    { href: `${pathPrefix}#cta`, label: dict.nav.cta },
+    { href: `${pathPrefix}/aignostics`, label: dict.nav.editorial },
+  ];
 
   return (
     <header className="site">
@@ -20,25 +28,12 @@ export function SiteHeader({ dict, locale }: Props) {
           <MiraLogomark className="mark-logomark" />
           {dict.nav.brand}
         </Link>
-        <nav aria-label="Primary">
-          <ul>
-            <li>
-              <Link href={`${pathPrefix}#problem`}>{dict.nav.problem}</Link>
-            </li>
-            <li>
-              <Link href={`${pathPrefix}#solution`}>{dict.nav.system}</Link>
-            </li>
-            <li>
-              <Link href={`${pathPrefix}#how`}>{dict.nav.how}</Link>
-            </li>
-            <li>
-              <Link href={`${pathPrefix}#cta`}>{dict.nav.cta}</Link>
-            </li>
-            <li>
-              <Link href={`${pathPrefix}/aignostics`}>{dict.nav.editorial}</Link>
-            </li>
-          </ul>
-        </nav>
+        <PrimaryNav
+          links={navLinks}
+          openMenuLabel={dict.a11y.openMenu}
+          closeMenuLabel={dict.a11y.closeMenu}
+          navLabel={dict.a11y.primaryNavigation}
+        />
         <div className="site-tools">
           <LanguageSwitcher locale={locale} labels={dict.lang} />
         </div>

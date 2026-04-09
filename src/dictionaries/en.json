@@ -149,7 +149,10 @@
   "a11y": {
     "skip": "Skip to content",
     "main": "Main content",
-    "heroAside": "Positioning note"
+    "heroAside": "Positioning note",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primaryNavigation": "Primary navigation"
   },
   "variantAignostics": {
     "backClassic": "Classic layout",

@@ -149,7 +149,10 @@
   "a11y": {
     "skip": "跳到正文",
     "main": "主要内容",
-    "heroAside": "产品定位说明"
+    "heroAside": "产品定位说明",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "primaryNavigation": "主导航"
   },
   "variantAignostics": {
     "backClassic": "经典版式",
