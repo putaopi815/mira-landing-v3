@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { MiraLogomark } from "@/components/brand/MiraLogomark";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import type { Dictionary } from "@/lib/get-dictionary";
 import type { Locale } from "@/i18n/config";
@@ -16,6 +17,7 @@ export function SiteHeader({ dict, locale }: Props) {
     <header className="site">
       <div className="wrap site-inner">
         <Link href={pathPrefix} className="mark">
+          <MiraLogomark className="mark-logomark" />
           {dict.nav.brand}
         </Link>
         <nav aria-label="Primary">
@@ -31,6 +33,9 @@ export function SiteHeader({ dict, locale }: Props) {
             </li>
             <li>
               <Link href={`${pathPrefix}#cta`}>{dict.nav.cta}</Link>
+            </li>
+            <li>
+              <Link href={`${pathPrefix}/aignostics`}>{dict.nav.editorial}</Link>
             </li>
           </ul>
         </nav>

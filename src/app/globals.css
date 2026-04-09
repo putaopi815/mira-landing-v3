@@ -147,11 +147,21 @@ header.site {
 }
 
 .mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--font-display), "Songti SC", Georgia, serif;
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: -0.02em;
   text-decoration: none;
+}
+
+.mark-logomark {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: block;
 }
 
 .mark:hover {

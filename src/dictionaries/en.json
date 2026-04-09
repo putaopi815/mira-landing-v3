@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Autonomous Hiring — AI Recruiting Team",
+    "title": "Mira — AI Recruiting Team",
     "description": "A self-driving AI recruiting team — from sourcing to outreach, analysis, and interview coordination."
   },
   "lang": {
@@ -9,11 +9,12 @@
     "zh": "中文"
   },
   "nav": {
-    "brand": "Autonomous Hiring",
+    "brand": "Mira",
     "problem": "Problem",
     "system": "System",
     "how": "How it works",
-    "cta": "Early access"
+    "cta": "Early access",
+    "editorial": "Editorial"
   },
   "hero": {
     "eyebrow": "01 · Vision",
@@ -142,12 +143,103 @@
     "ghost": "Talk to us"
   },
   "footer": {
-    "line1": "© Autonomous Hiring",
+    "line1": "© Mira",
     "line2": "Signal · Judgment · Timing"
   },
   "a11y": {
     "skip": "Skip to content",
     "main": "Main content",
     "heroAside": "Positioning note"
+  },
+  "variantAignostics": {
+    "backClassic": "Classic layout",
+    "kicker": "AI-native recruiting",
+    "heroTitle": "Turning fragmented hiring work into a coordinated, self-operating team",
+    "heroLead": "From signal to interview — agents run in parallel with shared context. You steer judgment where outcomes are shaped.",
+    "heroCtaPrimary": "Get early access",
+    "heroCtaSecondary": "Capabilities",
+    "productsEyebrow": "Capabilities",
+    "productsIntro": "Interoperating agents — each owns a slice of the loop so nothing stalls in the gaps between tools.",
+    "products": [
+      {
+        "tag": "Discovery",
+        "title": "Scout",
+        "body": "Always-on radar. Surfaces talent before you open a search.",
+        "more": "Learn more"
+      },
+      {
+        "tag": "Engagement",
+        "title": "Reach",
+        "body": "Starts conversations, follows up, and sustains momentum without template fatigue.",
+        "more": "Learn more"
+      },
+      {
+        "tag": "Intelligence",
+        "title": "Analyst",
+        "body": "Structured research and ranking — less noise, faster decisions at the shortlist.",
+        "more": "Learn more"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Hiring is a system — not a checklist",
+        "body": "Decisions, signals, and timing compound. We built the substrate so the loop runs end-to-end.",
+        "more": "The paradigm",
+        "hash": "paradigm"
+      },
+      {
+        "title": "Layers you can reason about",
+        "body": "Signal, graph, and decision layers stay inspectable — so operators trust motion, not black boxes.",
+        "more": "Architecture",
+        "hash": "architecture"
+      },
+      {
+        "title": "You guide; the team executes",
+        "body": "Train taste, approve critical forks, adjust strategy — without becoming the bottleneck on every step.",
+        "more": "Your role",
+        "hash": "role"
+      },
+      {
+        "title": "Always running, always learning",
+        "body": "Discovery, outreach, analysis, and coordination advance continuously with feedback at every loop.",
+        "more": "How it works",
+        "hash": "pipeline"
+      }
+    ],
+    "trustLabel": "/ Operating model",
+    "trustItems": [
+      "Human-in-the-loop at decision forks",
+      "Shared context across agents",
+      "Closed-loop optimization from feedback"
+    ],
+    "storiesEyebrow": "Outcomes",
+    "storiesTitle": "What changes when the system runs",
+    "stories": [
+      {
+        "title": "Runs 24/7",
+        "body": "Discovery and follow-through continue between your meetings — capacity stops being the ceiling.",
+        "more": "Learn more"
+      },
+      {
+        "title": "Multi-channel outreach",
+        "body": "Coordinated touchpoints instead of a single brittle channel or blast.",
+        "more": "Learn more"
+      },
+      {
+        "title": "Market-aware decisions",
+        "body": "Strategy shifts with labor-market signals — not a static playbook.",
+        "more": "Learn more"
+      },
+      {
+        "title": "Learns from your feedback",
+        "body": "Approvals and edits tighten judgment; the system compounds with you.",
+        "more": "Learn more"
+      }
+    ],
+    "closingEyebrow": "Next step",
+    "closingTitle": "Unlock capacity for your hiring organization",
+    "closingPrimary": "Get early access",
+    "closingGhost": "Talk to us",
+    "footerNote": "Editorial layout · same product story"
   }
 }

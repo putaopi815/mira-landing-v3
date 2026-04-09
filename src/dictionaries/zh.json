@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "自主招聘 — AI 招聘团队",
+    "title": "Mira — AI 招聘团队",
     "description": "一支自动驾驶的 AI 招聘团队 — 从寻源、触达、分析到面试协同，全流程自运转。"
   },
   "lang": {
@@ -9,11 +9,12 @@
     "zh": "中文"
   },
   "nav": {
-    "brand": "自主招聘",
+    "brand": "Mira",
     "problem": "问题",
     "system": "系统",
     "how": "工作原理",
-    "cta": "抢先体验"
+    "cta": "抢先体验",
+    "editorial": "编辑长版"
   },
   "hero": {
     "eyebrow": "01 · 愿景",
@@ -142,12 +143,103 @@
     "ghost": "联系我们"
   },
   "footer": {
-    "line1": "© 自主招聘",
+    "line1": "© Mira",
     "line2": "信号 · 判断 · 时机"
   },
   "a11y": {
     "skip": "跳到正文",
     "main": "主要内容",
     "heroAside": "产品定位说明"
+  },
+  "variantAignostics": {
+    "backClassic": "经典版式",
+    "kicker": "AI 原生招聘",
+    "heroTitle": "把割裂的招聘工作，变成协同自运转的团队",
+    "heroLead": "从信号到面试 — 多智能体并行、共享上下文；你在真正决定走向的节点上把握判断。",
+    "heroCtaPrimary": "申请抢先体验",
+    "heroCtaSecondary": "了解能力",
+    "productsEyebrow": "能力矩阵",
+    "productsIntro": "分工明确的智能体 — 各管一环、彼此衔接，避免卡在工具与工具之间的断层。",
+    "products": [
+      {
+        "tag": "发现",
+        "title": "Scout",
+        "body": "常时雷达。在你开始搜索之前，就先发现值得关注的候选人。",
+        "more": "了解更多"
+      },
+      {
+        "tag": "触达",
+        "title": "Reach",
+        "body": "主动开启对话、持续跟进，用有说服力的方式推动下一步。",
+        "more": "了解更多"
+      },
+      {
+        "tag": "情报",
+        "title": "Analyst",
+        "body": "结构化研究与排序 — 减少噪音，让短名单决策更快。",
+        "more": "了解更多"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "招聘是系统 — 不是清单",
+        "body": "决策、信号与时机彼此叠加。我们搭好底座，让闭环真正跑通。",
+        "more": "范式",
+        "hash": "paradigm"
+      },
+      {
+        "title": "可理解的层次结构",
+        "body": "信号、图谱与决策分层呈现 — 运营者信的是可追踪的运转，而不是黑箱。",
+        "more": "架构",
+        "hash": "architecture"
+      },
+      {
+        "title": "你引导，团队执行",
+        "body": "训练品味、审批关键分叉、调整策略 — 而不必成为每一步的瓶颈。",
+        "more": "你的角色",
+        "hash": "role"
+      },
+      {
+        "title": "持续运行，持续学习",
+        "body": "发现、触达、分析与协同持续推进，每一轮反馈都在优化策略与执行。",
+        "more": "如何运作",
+        "hash": "pipeline"
+      }
+    ],
+    "trustLabel": "/ 运行方式",
+    "trustItems": [
+      "关键分叉保留人类审批",
+      "智能体之间共享上下文",
+      "反馈驱动的闭环优化"
+    ],
+    "storiesEyebrow": "结果",
+    "storiesTitle": "系统跑起来之后，什么会不一样",
+    "stories": [
+      {
+        "title": "7×24 运转",
+        "body": "在你开会、休息的间隙，发现与跟进仍在继续 — 产能不再硬顶天花板。",
+        "more": "了解更多"
+      },
+      {
+        "title": "多渠道触达",
+        "body": "协同的多触点沟通，而不是单通道轰炸或脆弱模板。",
+        "more": "了解更多"
+      },
+      {
+        "title": "市场感知决策",
+        "body": "策略随真实劳动力市场信号调整，而不是死守过时 playbook。",
+        "more": "了解更多"
+      },
+      {
+        "title": "从你的反馈中学习",
+        "body": "每一次通过、拒绝与修改，都让判断更贴近你的标准。",
+        "more": "了解更多"
+      }
+    ],
+    "closingEyebrow": "下一步",
+    "closingTitle": "为招聘组织释放可持续产能",
+    "closingPrimary": "申请抢先体验",
+    "closingGhost": "联系我们",
+    "footerNote": "编辑长版 · 同一产品叙事"
   }
 }

@@ -16,7 +16,7 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Autonomous Hiring",
+  title: "Mira",
   description: "AI recruiting team product",
 };
 
